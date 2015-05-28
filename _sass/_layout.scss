@@ -1,0 +1,379 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+    
+}
+
+.site-title {
+    font-family: 'Raleway';
+    font-size: 3em;
+    line-height: 3.5em;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    
+    .title-acid {
+        font-weight: 400;
+        color: $pink-color;
+    }
+    .title-pink {
+        font-weight: 200;
+    }
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 0.6em;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 2em;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+.related-posts {
+    border-top: 1px solid $grey-color-light;
+    margin-top: 75px;
+
+    h3 {
+        margin-top: 1em;
+    }
+    li {
+        list-style: none;
+        line-height: 1em;;
+        margin: 0.3em 0;
+    }
+
+}
+
+.footnotes {
+    color: $grey-color;
+    font-size: 0.8em;
+    margin-top: 50px;
+}
+
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+    right: -0.13em;
+}
+sub { top: 0.4em; }
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; // default is 16:9
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: $spacing-unit;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p[data-pullquote] {
+  display: block;
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+p[data-pullquote]:before {
+  content: attr(data-pullquote);
+  float: right;
+  width: 200px;
+  margin: $spacing-unit 0 $spacing-unit 30px;
+  padding: 0 -5% 0 0;
+  font-size: 1.3em;
+  font-style: italic;
+  color: $brand-color;
+  text-align: center;
+}
+p.pull-left[data-pullquote]:before {
+  float: left;
+  margin: $spacing-unit 30px $spacing-unit 0;
+}
+
+div.excerpt div.footnotes {
+  display: none;
+}
+
+blockquote.pretty {
+
+    margin-bottom: $spacing-unit;
+    font-size: 1.1em;
+
+    span.source {
+    float: right;
+    margin-top: 0.5em;
+    margin-right: 15%;
+    }
+}
+
+.archive-title {
+    margin-left: 20px;
+}
+
+.archive-nav {
+    margin-left: 20px;
+
+    .archive-link {
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+}
+a.external-source {
+    float: right;
+    margin-right: $spacing-unit;
+}
+
+.archive-list {
+    h3 {
+        margin-left: 20px;
+    }
+    li {
+        list-style: none;
+        line-height: 1em;;
+        margin: 0.3em 0;
+        a {
+            margin-left: 3.2em;
+            display: block;
+        }
+    }
+    time {
+        display: float;
+        float: left;
+    }
+}
+
+.series-link {
+    font-style: italic;
+    .series-part {
+        font-weight: bolder;
+    }
+}
+
+.clacks-overhead {
+    display: none;
+}

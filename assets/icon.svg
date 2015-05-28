@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg fill-opacity="1" xmlns:xlink="http://www.w3.org/1999/xlink" color-rendering="auto" color-interpolation="auto" stroke="black" text-rendering="auto" stroke-linecap="square" stroke-miterlimit="10" stroke-opacity="1" shape-rendering="auto" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" xmlns="http://www.w3.org/2000/svg" font-family="&apos;Dialog&apos;" font-style="normal" stroke-linejoin="miter" font-size="12" stroke-dashoffset="0" image-rendering="auto">
+  <!--Unicode Character 'BLACK HEART SUIT' (U+2665)-->
+  <defs id="genericDefs" />
+  <g>
+    <g>
+      <path d="M105.75 215.7188 Q114.1875 199.125 124.4531 190.9688 Q134.7188 182.8125 150.3281 182.8125 Q170.2969 182.8125 183.7969 196.1016 Q197.2969 209.3906 197.2969 229.7812 Q197.2969 243.9844 191.1094 258.1172 Q184.9219 272.25 168.1875 293.2031 Q141.6094 326.6719 131.9062 341.5781 Q122.2031 356.4844 113.0625 377.7188 Q109.5469 385.875 106.5938 385.875 L104.7656 385.875 Q101.9531 385.875 98.4375 377.7188 Q89.2969 356.9062 79.8047 342.1406 Q70.3125 327.375 43.1719 293.2031 Q26.5781 272.25 20.3203 258.1172 Q14.0625 243.9844 14.0625 229.7812 Q14.0625 209.1094 27.5625 195.9609 Q41.0625 182.8125 61.0312 182.8125 Q76.6406 182.8125 86.9062 190.9688 Q97.1719 199.125 105.75 215.7188 Z" stroke="none" />
+    </g>
+  </g>
+</svg>

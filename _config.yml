@@ -1,0 +1,22 @@
+# Site settings
+title: ACIDPINK
+feed_title: ACIDPINK
+email: chrifpa@gmail.com
+xmpp: chrifpa@jabber.ccc.de
+description: "I write about whatever strikes my fancy. Things strinking my fancy include: Tech, Space, (Queer)Feminism, Politics, the&#160;Future, Science, Hacking, Apple, FreeBSD"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://acid.pink" # the base hostname & protocol for your site
+assets: "/assets/"
+twitter_username: chrifpa
+github_username:  chrifpa
+adn_username:     chrifpa
+link_char: "&#160;↦"
+icon_char: "♡&#160;"
+excerpt_separator: "<!-- break -->"
+
+# Build settings
+markdown: kramdown
+paginate: 10
+paginate_path: "page:num"
+
+exclude: ["acidpink.sublime-project", "README.md", "TODO.md"]

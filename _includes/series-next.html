@@ -1,0 +1,14 @@
+  {% if page.series %}
+    {% assign next = false %}
+    {% for post in site.posts reversed %}
+      {% if post.permalink == page.permalink %}
+        {% assign next = true %}
+        {% elsif post.series == page.series and next %}
+          <h3>Next post in this series:</h3>
+          <ul style="list-style: none;">
+          <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+          </ul>
+        {% assign next = false %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}

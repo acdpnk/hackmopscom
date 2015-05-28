@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+<header class="post-header">
+  <h1 class="post-title archive-title">{{ page.title }}</h1>
+</header>
+
+<div class="archive-nav">
+    <a class="archive-link" href="/archive">[&#160;♡&#160;&amp;&#160;↦&#160;]</a>
+    <a class="archive-link" href="/originals-archive">[&#160;♡&#160;]</a>
+    <a class="archive-link" href="/link-archive">[&#160;↦&#160;]</a>
+</div>
+
+<div class="archive-list">
+{%for post in site.posts %}
+    {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
+    {% capture nmonth %}{{ post.next.date | date: '%m' }}{% endcapture %}
+    {% if month != nmonth %}
+        <br>
+        <h3>{{ post.date | date: '%B %Y' }}</h3>
+    {% endif %}
+    {% if page.external and post.external_url %}
+    <li><time>{{ post.date | date:"%m-%d " }}</time><a href="{{ post.url }}">{{ post.title }}{{ site.link_char }}</a>
+    {% elsif page.original and post.external_url == null %}
+    <li><time>{{ post.date | date:"%m-%d " }}</time><a href="{{ post.url }}">{{ site.icon_char }}{{ post.title }}</a>
+    {% endif %}
+{% endfor %}
+</div>

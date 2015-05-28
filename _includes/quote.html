@@ -1,0 +1,17 @@
+<div>
+<blockquote class="pretty">
+{{ include.quote }}
+{% if include.source %}
+    <span class="source">–
+    {% if include.link %}
+        <a href="{{ include.link }}">
+    {% endif %}
+    {{ include.source }}
+    {% if include.link %}
+        </a>
+    {% endif %}
+    </span>
+{% endif %}
+</blockquote>
+<br />
+</div>

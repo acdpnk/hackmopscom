@@ -1,0 +1,18 @@
+{% if page.series or post.series %}
+  {% assign i = 1 %}
+  {% for psot in site.posts reversed %}
+    {% if psot.series == page.series or psot.series == post.series %}
+      {% unless psot.permalink == page.permalink or psot.permalink == post.permalink or psot.series == null %}
+        <span class="series-link"><span class="series-part">Part {{ i }}</span>: <a href="{{ psot.permalink }}">{{ psot.title }}</a>
+        <br /></span>
+      {% endunless %}
+      {% unless psot.series == null %}
+        {% assign i = i | plus: 1 %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% comment %}
+I'm sorry this is so ugly - it has to work both in _includes/post.html and /index.hmtl, that's where the post variable comes from. And yes, the posts in context of this document are called "psot". Sorry.
+{% endcomment %}

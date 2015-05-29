@@ -6,7 +6,7 @@ max_age:
     "public/*": 6000
     "*": 300
 
-s3_endpoint: ireland
+s3_endpoint: eu-west-1
 s3_reduced_redundancy: true
 
 concurrency_level: 100

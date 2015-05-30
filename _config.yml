@@ -1,11 +1,11 @@
 # Site settings
-title: ACIDPINK
-feed_title: ACIDPINK
+title: Hackmops
+feed_title: Hackmops
 email: chrifpa@gmail.com
 xmpp: chrifpa@jabber.ccc.de
 description: "I write about whatever strikes my fancy. Things strinking my fancy include: Tech, Space, (Queer)Feminism, Politics, the&#160;Future, Science, Hacking, Apple, FreeBSD"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://acid.pink" # the base hostname & protocol for your site
+url: "http://hackmops.com" # the base hostname & protocol for your site
 assets: "/assets/"
 twitter_username: chrifpa
 github_username:  chrifpa
@@ -19,4 +19,4 @@ markdown: kramdown
 paginate: 10
 paginate_path: "page:num"
 
-exclude: ["acidpink.sublime-project", "README.md", "TODO.md"]
+exclude: ["hackmopscom.sublime-project", "README.md", "TODO.md", "Gemfile", "s3_website.yml", ".travis.yml"]

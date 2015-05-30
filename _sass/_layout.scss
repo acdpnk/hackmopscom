@@ -19,6 +19,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    max-width: 100%;
 
     .title-bold {
         font-weight: 400;
@@ -94,6 +95,7 @@
         .page-link {
             display: block;
             padding: 5px 10px;
+            color: $text-color;
         }
     }
 }

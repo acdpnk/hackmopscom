@@ -1,14 +1,12 @@
 ---
 layout: page
-title: What is It
+title: About
 permalink: /about/
 ---
 
-About
-
 <hr style="margin:50px" />
 
-### Impressum
+### Imprint
 
 Christian F Panzier<br />
 Varrelmannstr. 6<br />

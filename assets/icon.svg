@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
-
-<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.0//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
-<svg fill-opacity="1" xmlns:xlink="http://www.w3.org/1999/xlink" color-rendering="auto" color-interpolation="auto" stroke="black" text-rendering="auto" stroke-linecap="square" stroke-miterlimit="10" stroke-opacity="1" shape-rendering="auto" fill="black" stroke-dasharray="none" font-weight="normal" stroke-width="1" xmlns="http://www.w3.org/2000/svg" font-family="&apos;Dialog&apos;" font-style="normal" stroke-linejoin="miter" font-size="12" stroke-dashoffset="0" image-rendering="auto">
-  <!--Unicode Character 'BLACK HEART SUIT' (U+2665)-->
-  <defs id="genericDefs" />
-  <g>
-    <g>
-      <path d="M105.75 215.7188 Q114.1875 199.125 124.4531 190.9688 Q134.7188 182.8125 150.3281 182.8125 Q170.2969 182.8125 183.7969 196.1016 Q197.2969 209.3906 197.2969 229.7812 Q197.2969 243.9844 191.1094 258.1172 Q184.9219 272.25 168.1875 293.2031 Q141.6094 326.6719 131.9062 341.5781 Q122.2031 356.4844 113.0625 377.7188 Q109.5469 385.875 106.5938 385.875 L104.7656 385.875 Q101.9531 385.875 98.4375 377.7188 Q89.2969 356.9062 79.8047 342.1406 Q70.3125 327.375 43.1719 293.2031 Q26.5781 272.25 20.3203 258.1172 Q14.0625 243.9844 14.0625 229.7812 Q14.0625 209.1094 27.5625 195.9609 Q41.0625 182.8125 61.0312 182.8125 Q76.6406 182.8125 86.9062 190.9688 Q97.1719 199.125 105.75 215.7188 Z" stroke="none" />
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<path d="M69.73,4.945H29.549c-2.731,0-4.944,2.213-4.944,4.944v80.113c0,2.729,2.213,4.943,4.944,4.943H69.73
+    c2.73,0,4.944-2.214,4.944-4.943V9.889C74.675,7.158,72.461,4.945,69.73,4.945z M44.825,8.683h9.638
+    c0.289,0,0.523,0.235,0.523,0.524c0,0.289-0.234,0.523-0.523,0.523h-9.638c-0.289,0-0.522-0.235-0.522-0.523
+    C44.303,8.917,44.537,8.683,44.825,8.683z M49.682,91.188c-1.637,0-2.966-1.328-2.966-2.967c0-1.638,1.329-2.967,2.966-2.967
+    c1.639,0,2.967,1.329,2.967,2.967C52.649,89.86,51.321,91.188,49.682,91.188z M70.034,81.498h-40.79V13.447h40.79V81.498z"/>
+<rect x="29.245" y="13.447" fill="#FFFFFF" width="40.79" height="68.051"/>
 </svg>

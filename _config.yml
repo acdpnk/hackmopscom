@@ -1,15 +1,15 @@
 # Site settings
 title: Hackmops
 feed_title: Hackmops
-email: chrifpa@gmail.com
+email: chris@hackmops.com
 xmpp: chrifpa@jabber.ccc.de
-description: "I write about whatever strikes my fancy. Things strinking my fancy include: Tech, Space, (Queer)Feminism, Politics, the&#160;Future, Science, Hacking, Apple, FreeBSD"
+description: "My name's Chris, I'm an iOS Developer."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hackmops.com" # the base hostname & protocol for your site
 assets: "/assets/"
 twitter_username: chrifpa
 github_username:  chrifpa
-adn_username:     chrifpa
+# adn_username:     chrifpa
 link_char: "&#160;↦"
 icon_char: "♡&#160;"
 excerpt_separator: "<!-- break -->"

@@ -1,0 +1,6 @@
+<figure class="appicon{% if include.left %} pull-left{% endif %}">
+{% if include.link and include.link != "" %}<a href="{{ include.link }}">{% endif %}
+    <img src="{% unless include.external_src %}{{ site.url }}{{ site.assets }}{{ include.src }}{% else %}{{ include.external_src }}{% endunless %}" {% if include.description and include.description != "" %} alt="{{ include.description }}"{% endif %} />
+{% if include.link and include.link != "" %}</a>{% endif %}
+    {% if include.description and include.description != "" %}<figcaption>{{ include.description }}</figcaption>{% endif %}
+</figure>

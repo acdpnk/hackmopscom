@@ -17,7 +17,5 @@ Germany
 
 
 [mail]: mailto:{{ site.email }}
-[evil]: https://twitter.com/AvoidComments
-[^social]: see below
-[source on GitHub]: https://github.com/chrifpa/chrifpa.github.io
+[source on GitHub]: https://github.com/chrifpa/hackmopscom
 

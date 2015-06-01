@@ -9,3 +9,16 @@ layout: page
 <p>{{ page.description }}</p>
 
 {{ content }}
+
+{% if site.tags contains page.name %}
+    <div class="related-posts">
+        <h3>Posts about {{ page.title }}:</h3>
+        <ul>
+            {% for post in site.posts %}
+                {% if post.tags contains page.name %}
+                    <li><a href="{{ post.url }}">{% unless post.external_url %}{{ site.icon_char }}{% endunless %}{{ post.title }}{% if post.external_url %}{{ site.link_char }}{% endif %}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}

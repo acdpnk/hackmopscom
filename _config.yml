@@ -24,6 +24,7 @@ exclude: ["README.md", "TODO.md", "Gemfile", "s3_website.yml", ".travis.yml"]
 collections:
     projects:
         output: true
+        permalink: /projects/:name/
 
 
 defaults:

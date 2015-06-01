@@ -17,6 +17,9 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.comments %}
+  {% include comments.html %}
+  {% endif %}
 
   <h2 style="margin:20px">***</h2>
 
@@ -33,3 +36,4 @@ layout: default
   {% endif %}
 
 </div>
+

@@ -388,11 +388,12 @@ a.external-source {
 .appicon {
     display: block;
     float: right;
-    width: 30%;
-    margin-left: $spacing-unit*0.5;
+    width: 20%;
+    margin-left: $spacing-unit;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: o;
+    margin-right: 0px;
+    // background-color: #663399;
 }
 
 .pull-left {
@@ -403,11 +404,14 @@ a.external-source {
     // display: block;
 
     .appicon {
-        // float: left;
+        // float: ;
         // display: block;
+        padding-top: $spacing-unit;
     }
 }
 
 .project {
     float: left;
+    width: 80%;
+    display: block;
 }

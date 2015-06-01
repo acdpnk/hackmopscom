@@ -20,3 +20,15 @@ paginate: 10
 paginate_path: "page:num"
 
 exclude: ["README.md", "TODO.md", "Gemfile", "s3_website.yml", ".travis.yml"]
+
+collections:
+    projects:
+        output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project

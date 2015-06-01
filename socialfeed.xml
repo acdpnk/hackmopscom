@@ -18,7 +18,7 @@ layout: null
           {{ post.excerpt | xml_escape }}
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.permalink | prepend: site.baseurl | prepend: site.url }}</link>
+        <link>{{ post.url| prepend: site.baseurl | prepend: site.url }}</link>
       </item>
     {% endfor %}
   </channel>

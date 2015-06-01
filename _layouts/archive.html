@@ -2,6 +2,12 @@
 layout: page
 ---
 
+<div class="archive-nav">
+    <a class="archive-link" href="/archive">[&#160;{{ site.icon_char }}&amp;{{ site.link_char }}&#160;]</a>
+    <a class="archive-link" href="/originals-archive">[&#160;{{ site.icon_char }}]</a>
+    <a class="archive-link" href="/link-archive">[{{ site.link_char }}&#160;]</a>
+</div>
+
 <div class="archive-list">
 {%for post in site.posts %}
     {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
@@ -10,7 +16,10 @@ layout: page
         <br>
         <h3>{{ post.date | date: '%B %Y' }}</h3>
     {% endif %}
-
-    <li><time>{{ post.date | date:"%m-%d " }}</time><a href="{{ post.url }}">{{ post.title }}</a>
+    {% if page.external and post.external_url %}
+    <li><time>{{ post.date | date:"%m-%d " }}</time><a href="{{ post.url }}">{{ post.title }}{{ site.link_char }}</a>
+    {% elsif page.original and post.external_url == null %}
+    <li><time>{{ post.date | date:"%m-%d " }}</time><a href="{{ post.url }}">{{ site.icon_char }}{{ post.title }}</a>
+    {% endif %}
 {% endfor %}
 </div>

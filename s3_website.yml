@@ -3,13 +3,26 @@ s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 s3_bucket: hackmops.com
 
 max_age:
-    "public/*": 6000
+    "assets/*": 6000
     "*": 300
 
 s3_endpoint: eu-west-1
 s3_reduced_redundancy: true
 
 concurrency_level: 100
+
+cloudfront_distribution_id: E1JN40KJZLLI7V
+
+cloudfront_distribution_config:
+  default_cache_behavior:
+    min_TTL: <%= 60 * 60 * 24 %>
+  aliases:
+    quantity: 1
+    items:
+      CNAME: hackmops.com
+
+cloudfront_invalidate_root: true
+
 
 # Below are examples of all the available configurations.
 # See README for more detailed info on each of them.

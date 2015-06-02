@@ -18,8 +18,13 @@ I'm not terribly familiar with aws, and might very well have missed some configu
 
 The important thing is that one way or another it works now, and if you're like me and just want to set up a Cloudfront distribution for your s3-hosted static website real quick, this little piece of advice might save you some frustration.
 
+#### UPDATE
+Turns out: [s3_website][], which I use to deploy the site, does all of this by itself if configured properly. The [README][s3_website] is quite helpful.
+
 [Cloudfront]: https://aws.amazon.com/cloudfront/
 [cloudfront url]: https://d2xs82utexg37l.cloudfront.net
 [instructions]: http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html
 [tutorial]: http://www.michaelgallego.fr/blog/2013/08/27/static-website-on-s3-cloudfront-and-route-53-the-right-way/
+[s3_website]: https://github.com/laurilehmijoki/s3_website
+
 [^404]: If you want to have custom error pages you'll have to set them up separately, which I did for my [404](http://hackmops.com/404.html).

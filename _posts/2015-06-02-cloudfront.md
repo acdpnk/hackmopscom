@@ -8,7 +8,7 @@ I just set up Amazon [Cloudfront][] to serve hackmops.com.
 
 <!-- break -->
 
-The main reason to get into that was that I want to make the site available via https -- it is now, but only if you go through the [cloudfront url][]. As a "side effect", the site is now crazy fast, as long as it comes from the cdn -- not likely, since the cache is invalidated after 300 seconds, and traffic is… lets just say it's unlikely someone looked at the site no longer than 300s before you do. But who knows -- if traffic increases I'm ready.
+I went to Cloudfront because I want to make the site available via https -- it is now, but only if you go through the [cloudfront url][]. As a "side effect", the site is now crazy fast, as long as it comes from the cdn -- not likely, since the cache is invalidated after 300 seconds, and traffic is… lets just say it's unlikely someone looked at the site no longer than 300s before you do. But who knows -- if traffic increases I'm ready.
 
 The main reason I wanted to write about Cloudfront, however, was that I had some hiccups setting it up, and I thought I'd share my workaround. At first I followed their [instructions][] (including configuring a CNAME), which seemed to work fine -- except that only my root object (index.html) and the 404 site[^404] were available. So after lots of superbly fast-served 404s I took to google and found [this][tutorial] tutorial, containing the following crucial bit of advice:
 

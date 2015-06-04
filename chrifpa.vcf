@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iOS 8.3//EN
+N:Panzier;Christian;;;
+FN:Christian Panzier
+NICKNAME:chrifpa
+ORG:Hackmops;
+TITLE:iOS Developer
+EMAIL;type=INTERNET;type=WORK;type=pref:chris@hackmops.com
+EMAIL;type=INTERNET;type=HOME:chrifpa@gmail.com
+TEL;type=IPHONE;type=CELL;type=VOICE:+49 179 5455756
+item1.URL;type=pref:hackmops.com
+item1.X-ABLabel:_$!<HomePage>!$_
+item2.URL:acid.pink
+item2.X-ABLabel:Blog
+X-SOCIALPROFILE;type=twitter;x-user=chrifpa:http://twitter.com/chrifpa
+X-SOCIALPROFILE;type=twitter;x-user=hackmops:http://twitter.com/hackmops
+END:VCARD

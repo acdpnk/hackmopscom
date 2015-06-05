@@ -3,4 +3,6 @@ _site
 .AppleDouble
 _drafts
 .atom-build.json
-*.sublime*
+*.sublime-project
+*.sublime-workspace
+

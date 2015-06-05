@@ -3,5 +3,5 @@ _site
 .AppleDouble
 _drafts
 .atom-build.json
-*.sublime-project
-*.sublime-workspace
+hackmopscom.sublime-project
+hackmopscom..sublime-workspace

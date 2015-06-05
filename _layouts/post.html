@@ -17,6 +17,12 @@ layout: default
     {{ content }}
   </article>
 
+  <div class="tags">
+  {% if page.tags != empty %}
+    Tagged <span class="tags">{% for tag in page.tags %}<a href="{{site.base_url}}/tags/{{ tag }}/">{{ tag }}</a> {% endfor %}</span>
+    {% endif %}
+  </div>
+
   {% if page.comments %}
   {% include comments.html %}
   {% endif %}

@@ -40,8 +40,11 @@
 }
 
 .site-nav {
+    // position: absolute;
+    // right: 30px;
     float: right;
     line-height: 56px;
+    // margin-bottom: $spacing-unit*2;
 
     .menu-icon {
         display: none;
@@ -414,4 +417,16 @@ a.external-source {
     float: left;
     width: 80%;
     display: block;
+}
+
+.tag-cloud {
+    margin: $spacing-unit;
+    .tag {
+        display: flex;
+        margin: $spacing-unit*0.1;
+    }
+}
+
+.tags {
+    margin-bottom: $spacing-unit;
 }

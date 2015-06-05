@@ -8,6 +8,4 @@
             "file_exclude_patterns": [".atom-build.json"]
         }
     ]
-
-
 }

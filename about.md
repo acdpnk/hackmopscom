@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+{% include appicon.html src="passbook.png" link="https://d2xs82utexg37l.cloudfront.net/chrifpa.pkpass" description="My Passbook Business Card. Tap/click to download, or scan the QR-code directly from Passbook." style="width:40%" %}
+
 Hi, my name is Chris. I'm calling myself an iOS Developer, because that's what I'm currently doing the most, but I'm interested in all kinds of software development. What fascinates me the most (and ultimately got me into coding) is human-machine interfaces. Backends and servers are fun (in fact, I enjoy Erlang and Elixir quite a bit), but wherever -- and by whichever means -- brains and computers meet, *that* is where the magic happens. I'll write a blog post about that some time.
 
 I'm also studying for a degree in computer science, which eats lots of time and money.

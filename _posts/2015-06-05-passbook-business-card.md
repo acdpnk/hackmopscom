@@ -8,7 +8,7 @@ I made my own passbook business card!
 
 <!-- break -->
 
-<figure class="passbook-card"><a href="https://d2xs82utexg37l.cloudfront.net/chrifpa.pkpass"><img src="{{ site.baseurl | append: site.assets }}/passbook.png" alt="My Passbook Business Card. Tap/click to download, or scan the QR-code directly from Passbook."></a><figcaption>My Passbook Business Card. Tap/click to download, or scan the QR-code directly from Passbook.</figcaption></figure>
+<figure class="passbook-card"><a href="https://d2xs82utexg37l.cloudfront.net/chrifpa.pkpass"><img src="{{ site.baseurl | append: site.assets }}passbook.png" alt="My Passbook Business Card. Tap/click to download, or scan the QR-code directly from Passbook."></a><figcaption>My Passbook Business Card. Tap/click to download, or scan the QR-code directly from Passbook.</figcaption></figure>
 
 Ever since I saw [this][tutorial] tutorial I wanted to make one, and I've finally come around to it. Tom's [post][tutorial] is pretty complete, so I won't go into much detail, but there's a couple of things I want to point out.
 

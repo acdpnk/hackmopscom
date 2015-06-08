@@ -27,7 +27,7 @@
     }
 
     @include media-query($on-palm) {
-        font-size: 2.5em;
+        font-size: 2.3em;
     }
 }
 
@@ -383,7 +383,7 @@ a.external-source {
 .appicon {
     display: block;
     float: right;
-    width: 300px;
+    width: 30%;
     margin-left: $spacing-unit;
     margin-top: 0px;
     margin-bottom: 0px;

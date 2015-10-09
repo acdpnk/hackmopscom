@@ -27,7 +27,7 @@ Germany
 
 [Travis CI]: https://travis-ci.org/chrifpa/hackmopscom
 [s3]: http://aws.amazon.com/s3/
-[jekyll]: jekyllrb.com
+[jekyll]: http://jekyllrb.com
 [cloudfront]: http://hackmops.com/posts/2015-06-02-cloudfront/
 [mail]: mailto:{{ site.email }}
 [github]: https://github.com/chrifpa/hackmopscom

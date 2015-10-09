@@ -5,7 +5,7 @@ description: A simple, functional and modern iOS App to browse the menu of Hanno
 name: hmensaplus
 ---
 
-HMensa+ is my attempt at making an up-to-date App to browse my university canteens' menus. I know it wont change the world (or even make me enough money to justify the time I put into its development). That's ok, because it was my first *real* App, and as a learning project and a way to get my feet wet publishing Apps (and, not to forget, a neat way to check out what's on the menu) it serves its purpose just fine. All things considered I'm pretty happy with how it turned out.
+HMensa+ is my attempt at making an up-to-date App to browse my university canteens' menus. It is my first App, meant as a learning project and a way to get my feet wet publishing Apps (and, not to forget, a neat way to check out what's on the menu). All things considered I'm pretty happy with how it turned out.
 
 If you're an iOS user and interested in Hannover University's canteens' menus you should totally check it out.
 

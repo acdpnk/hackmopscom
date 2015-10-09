@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+      <title>Redirecting...</title>
+      <link rel="canonical" href="{{ page.destination }}"/>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta http-equiv="refresh" content="0; url={{ page.destination }}" />
+
+  <body>
+
+  <div class="clacks-overhead">GNU Terry Pratchett</div>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <p><strong>Redirecting...</strong></p>
+        <p><a href='{{ page.destination }}'>Click here if you are not redirected.</a></p>
+        <script>
+          document.location.href = "{{ page.destination }}";
+        </script>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -11,7 +11,7 @@ World
 script
 </script>
 
-<p style="display:none">display none<p>
+<p class="onboarding-hidden">display none<p>
 
 <noscript>noscript</noscript>
 

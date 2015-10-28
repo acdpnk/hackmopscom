@@ -8,7 +8,6 @@ permalink: /stripped/onboarding
 
 World
 
-test
 
 <noscript>success!</noscript>
 

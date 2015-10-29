@@ -3,7 +3,7 @@ layout: naked
 permalink: /stripped/onboarding
 ---
 
-<h1 class="onboarding-fail" style="display:none">
+<h1 id="fail" class="onboarding-fail" style="display:none">
 Whoops, something when wrong.<br />
 Have you activated &quot;Stripped&quot; in Safari Content Blockers?
 </h1>
@@ -12,3 +12,9 @@ Have you activated &quot;Stripped&quot; in Safari Content Blockers?
 Yay, everything seems to be working fine!
 </h1>
 
+<script language="javascript">
+(function() {
+document.getElementById('fail').style.display = "block";
+}) ();
+
+</script>

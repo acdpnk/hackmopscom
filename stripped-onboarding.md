@@ -10,7 +10,7 @@ Whoops, something went wrong.<br />
 Have you activated &quot;Stripped&quot; in Safari Content Blockers?
 </h3>
 
-<h3 class="onboarding-success">
+<h3 id="success" class="onboarding-success">
 Yay, everything seems to be working fine!
 </h3>
 
@@ -18,6 +18,7 @@ Yay, everything seems to be working fine!
 
 $(document).ready(function() {
 document.getElementById('fail').style.display = "block";
+document.getElementById('success').style.display = "none";
 });
 
 </script>

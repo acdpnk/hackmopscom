@@ -13,6 +13,7 @@ Yay, everything seems to be working fine!
 </h1>
 
 <script language="javascript">
+
 $(function() {
 document.getElementById('fail').style.display = "block";
 });

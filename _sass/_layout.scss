@@ -436,6 +436,10 @@ a.external-source {
     margin-bottom: $spacing-unit;
 }
 
-.onboarding-hidden {
+.onboarding-success {
     display: none;
+}
+
+.onboarding-fail {
+    display: block;
 }

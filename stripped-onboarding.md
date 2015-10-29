@@ -3,15 +3,12 @@ layout: naked
 permalink: /stripped/onboarding
 ---
 
+<h1 class="onboarding-fail" style="display:none">
+Whoops, something when wrong.<br />
+Have you activated &quot;Stripped&quot; in Safari Content Blockers?
+</h1>
 
-#HELLO
-
-World
-<script type="text/plain">
-script
-</script>
-
-<p class="onboarding-hidden">display none<p>
-
-<noscript>noscript</noscript>
+<h1 class="onboarding-success">
+Yay, everything seems to be working fine!
+</h1>
 

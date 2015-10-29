@@ -14,7 +14,7 @@ Yay, everything seems to be working fine!
 
 <script language="javascript">
 
-$(function() {
+$(document).ready(function() {
 document.getElementById('fail').style.display = "block";
 });
 

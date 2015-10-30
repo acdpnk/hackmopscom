@@ -8,7 +8,7 @@ permalink: /stripped/onboarding/
 <div id="fail" class="onboarding-fail" style="display:none">
     <h3>
         Whoops, something went wrong.<br />
-        Have you activated &quot;Stripped&quot; in Safari Content Blockers?
+        Is &quot;Stripped&quot; enabled in Safari Content Blockers?
     </h3>
 </div>
 

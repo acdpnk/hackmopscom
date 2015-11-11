@@ -3,11 +3,15 @@ layout: naked
 permalink: /stripped/slowpage
 ---
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://deelay.me/5000/https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+    sleep(5);
+</script>
 
 # Slow Loading Page
 
-<div id='loaded'>
+<div id='loaded' style="display:none">
 
 It's not the most beautiful page like this, but at least you can read it on a slow connection.
 
@@ -38,6 +42,6 @@ It's not the most beautiful page like this, but at least you can read it on a sl
 
 <script language="javascript">
     $(document).ready(function() {
-        document.getElementById('loaded').style.display = "none";
+        document.getElementById('loaded').style.display = "block";
     });
 </script>

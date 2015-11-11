@@ -5,10 +5,6 @@ permalink: /stripped/slowpage
 
 <script src="http://deelay.me/5000/https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-<script type="text/javascript">
-    sleep(5);
-</script>
-
 # Slow Loading Page
 
 <div id='loaded' style="display:none">

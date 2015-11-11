@@ -3,7 +3,7 @@ layout: naked
 permalink: /stripped/slowpage
 ---
 
-<script src="http://deelay.me/10000/https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://deelay.me/5000/http://this.ressource/does/not/exi.st"></script>
 
 #Slow Page
 

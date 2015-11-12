@@ -7,13 +7,6 @@ permalink: /stripped/slowpage
 
 #Slow Page
 
-<div id="success" class="onboarding-success">
-    <br />
-    <h3>
-        It's not beautiful like this, but at least you <emph>can</emph> read it.
-    </h3>
-</div>
-
 ![](http://deelay.me/10000/http://hackmops.com/assets/hotrod1.png)
 
 <div id="success" class="onboarding-success">

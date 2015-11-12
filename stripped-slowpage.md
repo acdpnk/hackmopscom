@@ -7,16 +7,12 @@ permalink: /stripped/slowpage
 
 #Slow Page
 
-![](http://deelay.me/10000/http://hackmops.com/assets/hotrod1.png)
-
 <div id="success" class="onboarding-success">
     <br />
     <p>
         With something so strong, a little bit can go a long way. I guess I'm a little weird. I like to talk to trees and animals. That's okay though; I have more fun than most people. If we're going to have animals around we all have to be concerned about them and take care of them. That's what painting is all about. It should make you feel good when you paint. If there are two big trees, eventually there will be a little tree.
     </p>
 </div>
-
-![](http://deelay.me/10000/http://hackmops.com/assets/hotrod2.png)
 
 <div id="success" class="onboarding-success">
     <br />
@@ -28,8 +24,6 @@ permalink: /stripped/slowpage
         Everyone needs a friend. Friends are the most valuable things in the world. Everything's not great in life, but we can still find beauty in it. It's so important to do something every day that will make you happy
     </p>
 </div>
-
-![](http://deelay.me/10000/http://hackmops.com/assets/hotrod3.png)
 
 <div id="success" class="onboarding-success">
     <br />

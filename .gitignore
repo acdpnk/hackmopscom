@@ -5,3 +5,5 @@ _drafts
 .atom-build.json
 hackmopscom.sublime-project
 hackmopscom.sublime-workspace
+.DS_Store
+

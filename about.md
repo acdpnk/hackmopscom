@@ -4,11 +4,9 @@ title: About
 permalink: /about/
 ---
 
-<figure class="passbook-card"><a href="https://d2xs82utexg37l.cloudfront.net/chrifpa.pkpass"><img src="{{ site.url | append: site.assets }}passbook.png" alt="My Passbook Business Card. Tap/click to download, or scan the QR-code directly from Passbook."></a><figcaption>My <a href="//hackmops.com/posts/2015-06-05-passbook-business-card/">Passbook Business Card</a>. Tap/click to download, or scan the QR-code directly from Passbook. <a href="{{ site.url }}/chrifpa.vcf">No Passbook</a>?</figcaption></figure>
+Hi, my name is Chris. I'm an iOS and Web Developer.
 
-Hi, my name is Chris. I'm calling myself an iOS Developer, because that's what I'm currently doing the most, but I'm interested in all kinds of software development. What fascinates me the most (and ultimately got me into coding) is human-machine interfaces. Backends and servers are fun (in fact, I enjoy Erlang and Elixir quite a bit), but wherever -- and by whichever means -- brains and computers meet, *that* is where the magic happens. I'll write a blog post about that some time.
-
-I'm also studying for a degree in computer science, which eats lots of time and money.
+What fascinates me the most (and ultimately got me into coding) is human-machine interfaces. Backends and servers are fun (in fact, I enjoy Erlang and Elixir quite a bit), but wherever -- and by whichever means -- brains and computers meet, *that* is where the magic happens. I'll write a blog post about that some time.
 
 I will probably link to stuff here, and while I expect to be held morally accountable for what I link to, I reject legal responsibility. The Internet is a vast and fickle realm -- contents change, and I'm short enough on time as it is. So if you have any kind of problem with the contents of this site, my apps, or sites or apps I link to (or any problem at all you think I am responsible for), please don't sue me. Send me a [mail][], and I'm sure we can figure things out.
 

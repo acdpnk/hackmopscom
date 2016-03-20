@@ -14,7 +14,7 @@ The source is on [GitHub][], in case you want to take a look. There's not much t
 
 Use of a clipboard manager is highly recommended — I use [Copied][] and love it.
 
-I submitted the plugin to [package control][]. If you want to use it before it is officially accepted, go to `Command Palette → Package Control: Add Repository`, add this repository, then install as `CopyOnSelect`.
+I submitted the plugin to [package control][]. If you want to use it before it is officially accepted, go to `Command Palette → Package Control: Add Repository`, add the [repository][GitHub], then install as `CopyOnSelect`.
 
 
 [^apps]: iTerm2, Chrome, Xcode come to mind

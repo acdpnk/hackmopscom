@@ -4,7 +4,6 @@ layout: post
 tags:
   - taskpaper 3
   - javascript
-date: 2016-04-02 22:25
 ---
 
 My Taskmanager for coding projects is [Taskpaper 3][]. I've been using the preview version for a couple of months, and although it took me some time to get into I now *love* it. It's not that it has a steep learning curve — you can pretty much start using it out of the box with basic functionality. In this regard it is much like a Text Editor: all the power is hidden away.

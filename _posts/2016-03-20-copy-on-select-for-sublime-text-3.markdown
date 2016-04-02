@@ -14,7 +14,7 @@ The source is on [GitHub][], in case you want to take a look. There's not much t
 
 Use of a clipboard manager is highly recommended — I use [Copied][] and love it.
 
-<strike>I submitted the plugin to [package control][]. If you want to use it before it is officially accepted, go to `Command Palette → Package Control: Add Repository`, add the [repository][GitHub], then install as `CopyOnSelect`.</strike>
+~~I submitted the plugin to [package control][]. If you want to use it before it is officially accepted, go to `Command Palette → Package Control: Add Repository`, add the [repository][GitHub], then install as `CopyOnSelect`.~~
 
 **Update** 2016-04-01: Plugin is now installable as `Copy on Select` through [Package Control][package control]
 
@@ -24,4 +24,4 @@ Use of a clipboard manager is highly recommended — I use [Copied][] and love i
 [Sublime Text 3]: https://www.sublimetext.com/
 [GitHub]: https://github.com/chrifpa/CopyOnSelect
 [Copied]: http://copiedapp.com/
-[package control]: https://packagecontrol.io/
+[package control]: https://packagecontrol.io/packages/Copy%20on%20Select

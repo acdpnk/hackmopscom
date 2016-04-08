@@ -3,6 +3,7 @@ title: Copy On Select For Sublime Text 3
 tags:
     - Sublime Text 3
     - Python 3
+    - copyonselect
 date: 2016-03-20 16:59
 ---
 

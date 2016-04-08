@@ -2,9 +2,11 @@
 layout: page
 ---
 
-<figure class="appicon">
-    <img src="{{ site.assets}}{{ page.icon }}"/>
-</figure>
+{% if page.icon %}
+    <figure class="appicon">
+        <img src="{{ site.assets}}{{ page.icon }}"/>
+    </figure>
+{% endif %}
 
 <p>{{ page.description }}</p>
 

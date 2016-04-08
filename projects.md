@@ -6,11 +6,13 @@ permalink: /projects/
 <article class="project-list">
 {% for project in site.projects %}
 <div class="project">
-<figure class="appicon">
-    <a href="{{ project.url }}">
-        <img src="{{ site.assets }}{{ project.icon }}"/>
-    </a>
-</figure>
+{% if project.icon %}
+    <figure class="appicon">
+        <a href="{{ project.url }}">
+            <img src="{{ site.assets }}{{ project.icon }}"/>
+        </a>
+    </figure>
+{% endif %}
 
 <h2 class="post-title"><a href="{{ project.url }}">{{ project.title }}</a></h2>
 

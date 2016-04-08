@@ -5,4 +5,4 @@ description: An iOS Content Blocker to make slow connections useable.
 name: stripped
 ---
 
-Currently still in development.
+Stripped is [available on the AppStore](https://itunes.apple.com/us/app/stripped/id1049899093).

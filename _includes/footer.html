@@ -6,10 +6,12 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
+        <ul class="contact-list" id="contact">
           <!-- <li>{{ site.title }}</li> -->
           <li><span style="display:inline-block;width:3em">MAIL</span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if site.xmpp %}
           <li><span style="display:inline-block;width:3em">XMPP</span> <a href="xmpp:{{ site.xmpp }}">{{ site.xmpp }}</a></li>
+          {% endif %}
         </ul>
       </div>
 

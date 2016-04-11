@@ -1,7 +1,7 @@
 # Site settings
 title: Hackmops
 feed_title: Hackmops
-email: chris@hackmops.com
+email: chrifpa@gmail.com
 description: "My name's Chris, I'm an iOS and Web Developer."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hackmops.com" # the base hostname & protocol for your site
